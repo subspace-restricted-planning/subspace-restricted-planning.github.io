@@ -1,0 +1,15 @@
+# Owner-only waivers for identity_gate.py on the published project page.
+# id<TAB>path glob<TAB>context substring<TAB>reason
+#
+# paper.pdf is the submitted build, byte-identical to the PDF uploaded to the
+# venue.  Its reference list carries one third-person citation of published
+# work (PRISM) whose author list overlaps this submission's.  The paper repo
+# already waives exactly these four hits in the same rendered reference list
+# (identity_waivers_release.tsv, activated 2026-09-19, glob *main.pdf); the
+# file is named paper.pdf here, so the glob is repeated rather than reused.
+# Nothing else in the tree is waived: the 2026-09-26 full scan of the snapshot
+# (7184 blobs, every video and image included) found no other hit.
+AUTHOR-RZ	*paper.pdf!pdftotext	Jiawei Xia	third-person citation of published work, rendered in the reference list
+AUTHOR-YW	*paper.pdf!pdftotext	Jiawei Xia	third-person citation of published work, rendered in the reference list
+AUTHOR-XH	*paper.pdf!pdftotext	Jiawei Xia	third-person citation of published work, rendered in the reference list
+AUTHOR-GY	*paper.pdf!pdftotext	Jing Du	third-person citation of published work, rendered in the reference list
